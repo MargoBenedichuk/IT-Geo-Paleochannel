@@ -54,8 +54,11 @@ The model assists the interpreter — it does not replace geological reasoning.
 │
 ├── data/                     # Datasets
 │   ├── raw/                  # Raw seismic RGB maps
-│   ├── processed/            # Preprocessed data
-│   └── annotations/          # Masks and prompt annotations
+|   |  ├── images/                  # Raw seismic RGB maps
+|   |  └── masks/                    # Raw seismic RGB maps masks
+│   ├── augmentated/            # Preprocessed & augmentated data
+|   |  ├── images/                  # Preprocessed & augmented seismic RGB maps
+|   |  └── masks/                   # Preprocessed & augmented seismic RGB maps masks
 │
 ├── src/                      # Core source code
 │   ├── preprocessing.py      # Data preprocessing
