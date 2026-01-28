@@ -1,0 +1,13 @@
+numpy==2.0.2
+matplotlib==3.10.0
+scipy==1.16.3
+tqdm==4.67.1
+transformers @ git+https://github.com/huggingface/transformers.git@be0115e42fbf5d7ffe915e01b0cf9a68b29958c6
+datasets==4.0.0
+torch==2.9.0+cpu
+torchao==0.10.0
+torchaudio==2.9.0+cpu
+torchdata==0.11.0
+torchsummary==1.5.1
+torchtune==0.6.1
+torchvision==0.24.0+cpu

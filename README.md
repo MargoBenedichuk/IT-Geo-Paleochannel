@@ -88,4 +88,5 @@ The model assists the interpreter — it does not replace geological reasoning.
 ├── LICENSE
 └── .gitignore
 
-чатгпт
+@чатгпт
+
