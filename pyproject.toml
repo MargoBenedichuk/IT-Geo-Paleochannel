@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "geo-sam-service"
+version = "0.1.0"
+description = "Service for geo-marking using SAM"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"  
+
+# --- CORE (Работает везде: CPU/GPU, Win/Lin) ---
+torch = "2.2.0"
+torchvision = "0.17.0"
+
+transformers = "^4.38.0"  
+pillow = "^10.0.0"
+numpy = "^1.26.0"
+
+[tool.poetry.group.research.dependencies]
+jupyterlab = "^4.0.0"
+ipykernel = "^6.29.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.0.0"
+ruff = "^0.2.0"
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
