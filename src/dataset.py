@@ -1,4 +1,3 @@
-# src/dataset.py
 import os
 import numpy as np
 from torch.utils.data import Dataset
@@ -17,7 +16,6 @@ class RiverDataset(Dataset):
         self.filenames = sorted(list(image_files & mask_files))
         print(f"Загружено {len(self.filenames)} пар")
 
-        # Аугментации
         if augment:
             self.transform = A.Compose([
                 A.HorizontalFlip(p=0.5),
