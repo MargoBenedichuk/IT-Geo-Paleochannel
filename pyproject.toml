@@ -6,15 +6,10 @@ readme = "README.md"
 packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"  
 
 # --- CORE (Работает везде: CPU/GPU, Win/Lin) ---
-torch = "2.2.0"
-torchvision = "0.17.0"
 
-transformers = "^4.38.0"  
 pillow = "^10.0.0"
-numpy = "^1.26.0"
 
 [tool.poetry.group.research.dependencies]
 jupyterlab = "^4.0.0"
