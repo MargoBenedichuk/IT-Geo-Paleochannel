@@ -4,8 +4,8 @@ import albumentations as A
 import cv2
 from augmentation_tests.utils import load_npy, apply_brightness, _generate_perlin_noise_2d
 
-IMG_PATH = r"..\data_in\train\images\6_0.npy"
-MASK_PATH = r'..\data_in\train\images\6_0.npy'
+IMG_PATH = r"..\data_in\train\images\49_0.npy"
+MASK_PATH = r'..\data_in\train\masks\49_0.npy'
 
 def test_single_sample():
     orig_img = load_npy(IMG_PATH)
