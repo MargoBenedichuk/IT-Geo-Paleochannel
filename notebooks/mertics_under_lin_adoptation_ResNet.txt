@@ -1,0 +1,18 @@
+=== RAW EMBEDDINGS ===
+Accuracy: 0.8571428571428571
+ROC AUC: 0.9931972789115646
+Precision: 1.000, Recall: 0.714, F1: 0.833
+
+Confusion matrix:
+[[21  0]
+ [ 6 15]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+       river       0.78      1.00      0.88        21
+      rusels       1.00      0.71      0.83        21
+
+    accuracy                           0.86        42
+   macro avg       0.89      0.86      0.85        42
+weighted avg       0.89      0.86      0.85        42
