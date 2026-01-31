@@ -1,6 +1,30 @@
+[tool.poetry]
+name = "it-geo-paleoriverbed"
 version = "0.1.0"
+description = "Paleochannel segmentation using SAM and spectral decomposition"
+authors = ["Team <team@example.com>"]
 readme = "README.md"
+packages = [{include = "src"}, {include = "augmentation"}]
 
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^2.0.2"
+matplotlib = "^3.10.0"
+scipy = "^1.16.3"
+tqdm = "^4.67.1"
+torch = "^2.9.0"
+torchvision = "^0.24.0"
+transformers = "^4.36.0"
+datasets = "^4.0.0"
+onnxruntime = "^1.16.0"
+onnx = "^1.15.0"
+Pillow = "^10.0.0"
+
+[tool.poetry.group.research.dependencies]
+jupyter = "^1.0.0"
+ipykernel = "^6.20.0"
+notebook = "^7.0.0"
 
 [build-system]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

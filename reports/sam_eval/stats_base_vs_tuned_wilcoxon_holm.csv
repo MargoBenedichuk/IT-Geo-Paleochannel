@@ -1,0 +1,7 @@
+n_points,metric,model_A,model_B,wilcoxon_stat,p_value,mean_diff_A_minus_B,cohen_d_paired,p_holm
+3,IoU,SAM_paleorusels_vessels,SAM_vessels,2.0,0.375,0.0012831328434452735,0.39787527102041464,0.375
+3,Dice,SAM_paleorusels_vessels,SAM_vessels,2.0,0.375,0.002527531602725235,0.4483048437661227,0.375
+3,Precision,SAM_paleorusels_vessels,SAM_vessels,0.0,0.125,0.017748577501014565,1.1467567421575506,0.125
+3,Recall,SAM_paleorusels_vessels,SAM_vessels,3.0,0.625,-0.00233458421618706,-0.3262958278929999,0.625
+3,Accuracy,SAM_paleorusels_vessels,SAM_vessels,1.0,0.25,0.009481480138970433,0.7561477587493407,0.25
+3,Specificity,SAM_paleorusels_vessels,SAM_vessels,1.0,0.25,0.01161748765750632,0.7845692269887452,0.25

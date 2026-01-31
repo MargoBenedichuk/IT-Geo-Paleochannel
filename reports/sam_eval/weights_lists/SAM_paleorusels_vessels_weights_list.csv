@@ -1,0 +1,298 @@
+name,dtype,shape,numel
+sam_model.vision_encoder.pos_embed,float32,"(1, 64, 64, 768)",3145728
+onnx::MatMul_7198,float32,"(3072, 768)",2359296
+onnx::MatMul_7236,float32,"(768, 3072)",2359296
+onnx::MatMul_6907,float32,"(3072, 768)",2359296
+onnx::MatMul_6906,float32,"(768, 3072)",2359296
+onnx::MatMul_6868,float32,"(3072, 768)",2359296
+onnx::MatMul_6867,float32,"(768, 3072)",2359296
+onnx::MatMul_6805,float32,"(3072, 768)",2359296
+onnx::MatMul_6804,float32,"(768, 3072)",2359296
+onnx::MatMul_7299,float32,"(768, 3072)",2359296
+onnx::MatMul_6970,float32,"(3072, 768)",2359296
+onnx::MatMul_7300,float32,"(3072, 768)",2359296
+onnx::MatMul_7362,float32,"(768, 3072)",2359296
+onnx::MatMul_7363,float32,"(3072, 768)",2359296
+onnx::MatMul_7401,float32,"(768, 3072)",2359296
+onnx::MatMul_7402,float32,"(3072, 768)",2359296
+onnx::MatMul_6969,float32,"(768, 3072)",2359296
+onnx::MatMul_7237,float32,"(3072, 768)",2359296
+onnx::MatMul_7197,float32,"(768, 3072)",2359296
+onnx::MatMul_7032,float32,"(768, 3072)",2359296
+onnx::MatMul_7033,float32,"(3072, 768)",2359296
+onnx::MatMul_7135,float32,"(3072, 768)",2359296
+onnx::MatMul_7134,float32,"(768, 3072)",2359296
+onnx::MatMul_7071,float32,"(768, 3072)",2359296
+onnx::MatMul_7072,float32,"(3072, 768)",2359296
+onnx::MatMul_6985,float32,"(768, 2304)",1769472
+onnx::MatMul_6757,float32,"(768, 2304)",1769472
+onnx::MatMul_7199,float32,"(768, 2304)",1769472
+onnx::MatMul_7150,float32,"(768, 2304)",1769472
+onnx::MatMul_7315,float32,"(768, 2304)",1769472
+onnx::MatMul_7252,float32,"(768, 2304)",1769472
+onnx::MatMul_7087,float32,"(768, 2304)",1769472
+onnx::MatMul_7364,float32,"(768, 2304)",1769472
+onnx::MatMul_6820,float32,"(768, 2304)",1769472
+onnx::MatMul_6922,float32,"(768, 2304)",1769472
+onnx::MatMul_7034,float32,"(768, 2304)",1769472
+onnx::MatMul_6869,float32,"(768, 2304)",1769472
+onnx::MatMul_6793,float32,"(768, 768)",589824
+onnx::MatMul_7021,float32,"(768, 768)",589824
+onnx::MatMul_6958,float32,"(768, 768)",589824
+onnx::MatMul_7235,float32,"(768, 768)",589824
+sam_model.vision_encoder.neck.conv2.weight,float32,"(256, 256, 3, 3)",589824
+sam_model.vision_encoder.patch_embed.projection.weight,float32,"(768, 3, 16, 16)",589824
+onnx::MatMul_7186,float32,"(768, 768)",589824
+onnx::MatMul_7400,float32,"(768, 768)",589824
+onnx::MatMul_6905,float32,"(768, 768)",589824
+onnx::MatMul_7351,float32,"(768, 768)",589824
+onnx::MatMul_7070,float32,"(768, 768)",589824
+onnx::MatMul_7123,float32,"(768, 768)",589824
+onnx::MatMul_7288,float32,"(768, 768)",589824
+onnx::MatMul_6856,float32,"(768, 768)",589824
+onnx::MatMul_7442,float32,"(256, 2048)",524288
+onnx::MatMul_7443,float32,"(2048, 256)",524288
+onnx::MatMul_7477,float32,"(256, 2048)",524288
+onnx::MatMul_7478,float32,"(2048, 256)",524288
+sam_model.vision_encoder.neck.conv1.weight,float32,"(256, 768, 1, 1)",196608
+onnx::MatMul_7511,float32,"(256, 256)",65536
+onnx::MatMul_7514,float32,"(256, 256)",65536
+onnx::MatMul_7509,float32,"(256, 256)",65536
+onnx::MatMul_7508,float32,"(256, 256)",65536
+onnx::MatMul_7506,float32,"(256, 256)",65536
+onnx::MatMul_7512,float32,"(256, 256)",65536
+onnx::MatMul_7421,float32,"(256, 256)",65536
+onnx::MatMul_7465,float32,"(256, 256)",65536
+onnx::MatMul_7457,float32,"(256, 256)",65536
+onnx::MatMul_7456,float32,"(256, 256)",65536
+onnx::MatMul_7455,float32,"(256, 256)",65536
+onnx::MatMul_7430,float32,"(256, 256)",65536
+onnx::MatMul_7422,float32,"(256, 256)",65536
+onnx::MatMul_7420,float32,"(256, 256)",65536
+sam_model.mask_decoder.upscale_conv1.weight,float32,"(256, 64, 2, 2)",65536
+onnx::MatMul_7515,float32,"(256, 256)",65536
+onnx::MatMul_7505,float32,"(256, 256)",65536
+onnx::MatMul_7433,float32,"(256, 128)",32768
+onnx::MatMul_7468,float32,"(256, 128)",32768
+onnx::MatMul_7500,float32,"(128, 256)",32768
+onnx::MatMul_7492,float32,"(256, 128)",32768
+onnx::MatMul_7491,float32,"(256, 128)",32768
+onnx::MatMul_7490,float32,"(256, 128)",32768
+onnx::MatMul_7489,float32,"(128, 256)",32768
+onnx::MatMul_7481,float32,"(256, 128)",32768
+onnx::MatMul_7480,float32,"(256, 128)",32768
+onnx::MatMul_7479,float32,"(256, 128)",32768
+onnx::MatMul_7476,float32,"(128, 256)",32768
+onnx::MatMul_7467,float32,"(256, 128)",32768
+onnx::MatMul_7466,float32,"(256, 128)",32768
+onnx::MatMul_7431,float32,"(256, 128)",32768
+onnx::MatMul_7454,float32,"(128, 256)",32768
+onnx::MatMul_7446,float32,"(256, 128)",32768
+onnx::MatMul_7445,float32,"(256, 128)",32768
+onnx::MatMul_7444,float32,"(256, 128)",32768
+onnx::MatMul_7441,float32,"(128, 256)",32768
+onnx::MatMul_7432,float32,"(256, 128)",32768
+onnx::MatMul_7513,float32,"(256, 32)",8192
+onnx::MatMul_7507,float32,"(256, 32)",8192
+onnx::MatMul_7510,float32,"(256, 32)",8192
+onnx::MatMul_7516,float32,"(256, 32)",8192
+sam_model.mask_decoder.upscale_conv2.weight,float32,"(64, 32, 2, 2)",8192
+onnx::Resize_7385,float32,"(1, 64, 127)",8128
+onnx::Resize_6890,float32,"(1, 64, 127)",8128
+onnx::Resize_7220,float32,"(1, 64, 127)",8128
+onnx::Resize_7375,float32,"(1, 64, 127)",8128
+onnx::Resize_7045,float32,"(1, 64, 127)",8128
+onnx::Resize_7055,float32,"(1, 64, 127)",8128
+onnx::Resize_6880,float32,"(1, 64, 127)",8128
+onnx::Resize_7210,float32,"(1, 64, 127)",8128
+sam_model.vision_encoder.layers.4.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.6.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.9.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.3.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.11.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.0.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.10.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.1.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.2.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.7.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.5.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.8.mlp.lin1.bias,float32,"(3072,)",3072
+sam_model.vision_encoder.layers.5.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.9.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.4.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.8.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.2.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.6.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.0.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.7.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.10.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.11.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.3.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.vision_encoder.layers.1.attn.qkv.bias,float32,"(2304,)",2304
+sam_model.mask_decoder.transformer.layers.0.mlp.lin1.bias,float32,"(2048,)",2048
+sam_model.mask_decoder.transformer.layers.1.mlp.lin1.bias,float32,"(2048,)",2048
+onnx::Resize_6778,float32,"(1, 64, 27)",1728
+onnx::Resize_7326,float32,"(1, 64, 27)",1728
+onnx::Resize_7336,float32,"(1, 64, 27)",1728
+onnx::Resize_6841,float32,"(1, 64, 27)",1728
+onnx::Resize_7273,float32,"(1, 64, 27)",1728
+onnx::Resize_7263,float32,"(1, 64, 27)",1728
+onnx::Resize_6831,float32,"(1, 64, 27)",1728
+onnx::Resize_6768,float32,"(1, 64, 27)",1728
+onnx::Resize_6933,float32,"(1, 64, 27)",1728
+onnx::Resize_6996,float32,"(1, 64, 27)",1728
+onnx::Resize_6943,float32,"(1, 64, 27)",1728
+onnx::Resize_7098,float32,"(1, 64, 27)",1728
+onnx::Resize_7171,float32,"(1, 64, 27)",1728
+onnx::Resize_7161,float32,"(1, 64, 27)",1728
+onnx::Resize_7108,float32,"(1, 64, 27)",1728
+onnx::Resize_7006,float32,"(1, 64, 27)",1728
+onnx::Expand_7413,float32,"(5, 256)",1280
+sam_model.vision_encoder.layers.3.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.3.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.0.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.2.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.0.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.0.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.0.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.0.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.patch_embed.projection.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.0.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.1.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.3.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.2.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.1.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.1.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.1.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.3.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.2.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.1.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.1.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.2.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.2.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.2.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.3.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.8.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.3.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.10.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.8.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.8.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.8.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.11.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.11.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.11.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.11.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.11.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.11.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.10.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.10.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.7.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.10.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.10.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.10.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.9.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.9.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.9.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.9.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.9.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.9.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.8.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.8.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.7.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.4.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.4.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.4.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.4.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.5.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.5.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.5.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.5.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.5.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.4.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.7.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.5.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.6.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.6.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.6.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.6.layer_norm2.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.6.layer_norm2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.6.mlp.lin2.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.7.layer_norm1.weight,float32,"(768,)",768
+sam_model.vision_encoder.layers.7.layer_norm1.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.7.attn.proj.bias,float32,"(768,)",768
+sam_model.vision_encoder.layers.4.layer_norm2.weight,float32,"(768,)",768
+onnx::Add_7408,float32,"(1, 1, 1, 256)",256
+onnx::Add_7406,float32,"(1, 1, 1, 256)",256
+onnx::Expand_7409,float32,"(1, 256, 1, 1)",256
+sam_model.shared_image_embedding.positional_embedding,float32,"(2, 128)",256
+sam_model.mask_decoder.transformer.layers.0.layer_norm4.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.cross_attn_token_to_image.out_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.layer_norm3.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.layer_norm4.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.layer_norm4.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.layer_norm4.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.layer_norm3.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.layer_norm3.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.mlp.lin2.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.layer_norm2.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.layer_norm2.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.layer_norm3.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.mlp.lin2.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.cross_attn_token_to_image.out_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.layer_norm2.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.layer_norm1.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.layer_norm1.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.self_attn.out_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.self_attn.v_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.self_attn.k_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.self_attn.q_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.cross_attn_image_to_token.out_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.cross_attn_image_to_token.out_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.layer_norm1.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.layer_norm1.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.self_attn.out_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.output_hypernetworks_mlps.3.layers.0.bias,float32,"(256,)",256
+sam_model.vision_encoder.neck.layer_norm1.weight,float32,"(256,)",256
+sam_model.mask_decoder.output_hypernetworks_mlps.3.proj_in.bias,float32,"(256,)",256
+sam_model.mask_decoder.output_hypernetworks_mlps.2.layers.0.bias,float32,"(256,)",256
+sam_model.vision_encoder.neck.layer_norm1.bias,float32,"(256,)",256
+sam_model.mask_decoder.output_hypernetworks_mlps.2.proj_in.bias,float32,"(256,)",256
+sam_model.mask_decoder.output_hypernetworks_mlps.1.layers.0.bias,float32,"(256,)",256
+sam_model.vision_encoder.neck.layer_norm2.weight,float32,"(256,)",256
+sam_model.mask_decoder.output_hypernetworks_mlps.1.proj_in.bias,float32,"(256,)",256
+sam_model.mask_decoder.output_hypernetworks_mlps.0.layers.0.bias,float32,"(256,)",256
+sam_model.vision_encoder.neck.layer_norm2.bias,float32,"(256,)",256
+sam_model.mask_decoder.output_hypernetworks_mlps.0.proj_in.bias,float32,"(256,)",256
+sam_model.prompt_encoder.not_a_point_embed.weight,float32,"(1, 256)",256
+sam_model.mask_decoder.transformer.layers.0.self_attn.q_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.self_attn.k_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.self_attn.v_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layer_norm_final_attn.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layer_norm_final_attn.weight,float32,"(256,)",256
+sam_model.mask_decoder.transformer.final_attn_token_to_image.out_proj.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.0.layer_norm2.bias,float32,"(256,)",256
+sam_model.mask_decoder.transformer.layers.1.cross_attn_token_to_image.v_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.0.cross_attn_token_to_image.v_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.0.cross_attn_token_to_image.k_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.0.cross_attn_token_to_image.q_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.1.cross_attn_image_to_token.k_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.0.cross_attn_image_to_token.q_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.1.cross_attn_image_to_token.q_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.0.cross_attn_image_to_token.k_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.final_attn_token_to_image.k_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.final_attn_token_to_image.q_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.1.cross_attn_image_to_token.v_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.final_attn_token_to_image.v_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.1.cross_attn_token_to_image.k_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.1.cross_attn_token_to_image.q_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.transformer.layers.0.cross_attn_image_to_token.v_proj.bias,float32,"(128,)",128
+sam_model.mask_decoder.upscale_conv1.bias,float32,"(64,)",64
+sam_model.mask_decoder.upscale_layer_norm.weight,float32,"(64,)",64
+sam_model.mask_decoder.upscale_layer_norm.bias,float32,"(64,)",64
+sam_model.mask_decoder.upscale_conv2.bias,float32,"(32,)",32
+sam_model.mask_decoder.output_hypernetworks_mlps.0.proj_out.bias,float32,"(32,)",32
+sam_model.mask_decoder.output_hypernetworks_mlps.1.proj_out.bias,float32,"(32,)",32
+sam_model.mask_decoder.output_hypernetworks_mlps.2.proj_out.bias,float32,"(32,)",32
+sam_model.mask_decoder.output_hypernetworks_mlps.3.proj_out.bias,float32,"(32,)",32
+onnx::Resize_6772,int64,"(3,)",3
+onnx::Resize_6884,int64,"(3,)",3
